@@ -103,8 +103,7 @@ We value your privacy. See our [Privacy Policy](./privacy-policy-en.md) for deta
 To the maximum extent permitted by law:
 
 1. We are not liable for indirect, incidental, special, or consequential damages arising from use or inability to use the App
-2. Our total liability shall not exceed the amount you paid for the App (if any), or USD $15 (whichever is greater; the latter applies to free apps)
-3. These limits do not apply to damages caused by our willful misconduct or gross negligence
+2. Our total liability shall not exceed the amount you paid for the App (if any)
 
 ## 10. Changes to Terms
 

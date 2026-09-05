@@ -115,19 +115,15 @@ You have the right to:
 
 The App allows you to record diet and mood information. **This information is for personal discipline management only and does not constitute medical diagnosis, treatment advice, or professional health guidance.** Consult a healthcare professional for medical concerns.
 
-## 9. Children's Privacy
-
-The App is not directed at children under 13 (or the minimum age in your jurisdiction). We do not knowingly collect children's personal information. Contact us if you believe we have inadvertently collected such data.
-
-## 10. Legacy Data Migration
+## 9. Legacy Data Migration
 
 If you use the "Legacy Data Migration" feature, you enter your old system's username and password. This information is used only once to fetch historical data from the legacy server (zhushouxy.top) and import it into iCloud. It is not persistently stored by the App after migration.
 
-## 11. Changes to This Policy
+## 10. Changes to This Policy
 
 We may update this Privacy Policy from time to time. For material changes, we will notify you in the App or via our GitHub repository. Continued use after updates constitutes acceptance.
 
-## 12. Contact Us
+## 11. Contact Us
 
 For questions about this Privacy Policy:
 
