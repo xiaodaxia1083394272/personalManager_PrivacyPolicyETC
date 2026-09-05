@@ -24,7 +24,6 @@ When using the App, you may voluntarily enter or upload:
 - **Events and tasks**: daily events, task content, completion status, reflections, suggestions
 - **Timer records**: multi-task timer history, Pomodoro/stand-up reminder sessions
 - **Diet management**: meal records, food names, calories, macronutrients, ratings, notes, food photos
-- **Exercise and sleep** (if used): exercise and sleep records
 - **Notes and bookmarks**: rich-text notes, web bookmarks
 - **Calendar reminders**: reminder content you create
 - **Feedback**: text feedback you submit
@@ -114,7 +113,7 @@ You have the right to:
 
 ## 8. Health-Related Data
 
-The App allows you to record diet, exercise, sleep, and mood information. **This information is for personal discipline management only and does not constitute medical diagnosis, treatment advice, or professional health guidance.** Consult a healthcare professional for medical concerns.
+The App allows you to record diet and mood information. **This information is for personal discipline management only and does not constitute medical diagnosis, treatment advice, or professional health guidance.** Consult a healthcare professional for medical concerns.
 
 ## 9. Children's Privacy
 

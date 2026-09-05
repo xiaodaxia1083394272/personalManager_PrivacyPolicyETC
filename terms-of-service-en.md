@@ -74,7 +74,7 @@ The App is provided "as is" and "as available." We do not guarantee:
 
 ### 5.2 Health Information
 
-Diet, exercise, sleep, and mood features are **for personal reference only and do not constitute medical, nutritional, or mental health advice.** You assume all risk from decisions based on App information.
+Diet and mood features are **for personal reference only and do not constitute medical, nutritional, or mental health advice.** You assume all risk from decisions based on App information.
 
 ### 5.3 Third-Party Services
 
