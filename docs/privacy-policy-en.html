@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Self Discipline</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <p class="app-name">Self Discipline · 自律一下下</p>
+    <h1>Privacy Policy</h1>
+    <div class="meta">
+      <p><strong>App Name</strong>: Self Discipline (自律一下下)</p>
+      <p><strong>Developer</strong>: Riping Chen</p>
+      <p><strong>Bundle ID</strong>: bichen.disciplinedMaster.com</p>
+      <p><strong>Effective Date</strong>: September 5, 2026</p>
+      <p><strong>Last Updated</strong>: September 5, 2026</p>
+    </div>
+
+    <p class="intro">Welcome to <strong>Self Discipline</strong> (the "App"). We take your privacy seriously. Please read this Privacy Policy carefully before using the App.</p>
+
+    <h2>1. Scope</h2>
+    <p>This Privacy Policy applies to the Self Discipline macOS desktop application downloaded from the Mac App Store and its related services.</p>
+
+    <h2>2. Information We Collect</h2>
+    <h3>2.1 Information You Provide</h3>
+    <p>When using the App, you may voluntarily enter or upload:</p>
+    <ul>
+      <li><strong>Status records</strong>: hourly body status, emotional status, composite scores</li>
+      <li><strong>Events and tasks</strong>: daily events, task content, completion status, reflections, suggestions</li>
+      <li><strong>Timer records</strong>: multi-task timer history, Pomodoro/stand-up reminder sessions</li>
+      <li><strong>Diet management</strong>: meal records, food names, calories, macronutrients, ratings, notes, food photos</li>
+      <li><strong>Notes and bookmarks</strong>: rich-text notes, web bookmarks</li>
+      <li><strong>Calendar reminders</strong>: reminder content you create</li>
+      <li><strong>Feedback</strong>: text feedback you submit</li>
+      <li><strong>Settings</strong>: city name, optional email, and other preferences</li>
+    </ul>
+
+    <h3>2.2 Automatically Collected Information</h3>
+    <ul>
+      <li><strong>iCloud account identifier</strong>: The App uses Apple iCloud CloudKit to identify your account via Apple's assigned <code>recordName</code>. We do not collect or store your Apple ID password</li>
+      <li><strong>Device and usage preferences</strong>: UI language, theme, sidebar state, timer sounds and colors, stored locally</li>
+      <li><strong>Local timer history</strong>: multi-task timer execution records (task name, duration, result, date)</li>
+    </ul>
+
+    <h3>2.3 Information We Do NOT Collect</h3>
+    <ul>
+      <li>We do not collect your Apple ID password or iCloud credentials</li>
+      <li>We do not use third-party advertising or analytics SDKs (e.g., Firebase Analytics)</li>
+      <li>We do not collect precise geolocation (city name is manually entered by you for optional weather features)</li>
+      <li>We do not sell your personal information to third parties</li>
+    </ul>
+
+    <h2>3. How We Use Information</h2>
+    <p>We use collected information solely to:</p>
+    <ol>
+      <li><strong>Provide core features</strong>: store and sync your discipline records, tasks, diet, notes, and other data</li>
+      <li><strong>Cross-device sync</strong>: synchronize data across your Apple devices via iCloud</li>
+      <li><strong>Improve user experience</strong>: remember UI preferences, timer settings, etc.</li>
+      <li><strong>Local network image sync</strong>: serve diet photos to your mobile devices on the same Wi-Fi network</li>
+      <li><strong>Process feedback</strong>: store and handle feedback you submit</li>
+    </ol>
+
+    <h2>4. Storage and Sync</h2>
+    <h3>4.1 iCloud CloudKit (Primary Storage)</h3>
+    <p>Most App data is stored in <strong>Apple iCloud CloudKit</strong> private database, container ID <code>iCloud.disciplinedMaster.com</code>. Data is tied to your Apple ID and protected by Apple's Privacy Policy.</p>
+
+    <h3>4.2 Local Storage</h3>
+    <p>The following data is stored locally on your Mac:</p>
+    <ul>
+      <li><strong>SQLite database</strong> (<code>~/Library/Application Support/自律一下下/data/personal-manager.db</code>): timer history; legacy diet data (migrated to iCloud when possible)</li>
+      <li><strong>Local files</strong>: diet photos and general images</li>
+      <li><strong>Browser localStorage</strong>: UI preferences, drafts, temporary state</li>
+    </ul>
+
+    <h3>4.3 Local Network Service</h3>
+    <p>The App may run a local HTTP server on your LAN to sync diet photos with mobile devices on the same network. This service:</p>
+    <ul>
+      <li>Runs only when you use related features</li>
+      <li>Is accessible only within your local network, not exposed to the public internet</li>
+      <li>Uses Bonjour/mDNS (<code>_personal-manager-sync._tcp</code>) for device discovery</li>
+    </ul>
+
+    <h2>5. Sharing and Disclosure</h2>
+    <h3>5.1 Third-Party Services</h3>
+    <table>
+      <thead>
+        <tr><th>Service</th><th>Purpose</th><th>Data Shared</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Apple iCloud CloudKit</strong></td><td>Data storage and cross-device sync</td><td>All primary data you create in the App</td></tr>
+        <tr><td><strong>wttr.in</strong> (optional)</td><td>Weather lookup (currently disabled in UI)</td><td>City name you enter</td></tr>
+        <tr><td><strong>Legacy server zhushouxy.top</strong> (optional)</td><td>One-time historical data migration</td><td>Legacy username, password, and data to migrate (only when you initiate migration)</td></tr>
+      </tbody>
+    </table>
+    <p>We do not share your personal information with any other third parties.</p>
+
+    <h3>5.2 Legal Requirements</h3>
+    <p>We may disclose information when required by law, court order, or government authority.</p>
+
+    <h2>6. Data Security</h2>
+    <p>We protect your information by:</p>
+    <ul>
+      <li>Storing and transmitting data via encrypted Apple CloudKit</li>
+      <li>Running the App in macOS sandbox with strictly controlled permissions</li>
+      <li>Storing local databases and files in app-specific directories inaccessible to other apps</li>
+      <li>Not using third-party advertising or tracking SDKs</li>
+    </ul>
+    <p>No method of transmission or storage is 100% secure. We strive to protect your data but cannot guarantee absolute security.</p>
+
+    <h2>7. Your Rights</h2>
+    <p>You have the right to:</p>
+    <ol>
+      <li><strong>Access and export</strong>: view all data in the App; export features available for diet and other modules</li>
+      <li><strong>Modify and delete</strong>: edit or delete any record within the App</li>
+      <li><strong>Stop syncing</strong>: sign out of iCloud or uninstall the App to stop CloudKit sync</li>
+      <li><strong>Delete account data</strong>: uninstalling removes local data; iCloud data must be managed via <a href="https://www.icloud.com" target="_blank" rel="noopener">iCloud settings</a> or Apple support</li>
+      <li><strong>Opt out of LAN sharing</strong>: do not enable diet photo sync to avoid the local network service</li>
+    </ol>
+
+    <h2>8. Health-Related Data</h2>
+    <p>The App allows you to record diet and mood information. <strong>This information is for personal discipline management only and does not constitute medical diagnosis, treatment advice, or professional health guidance.</strong> Consult a healthcare professional for medical concerns.</p>
+
+    <h2>9. Legacy Data Migration</h2>
+    <p>If you use the "Legacy Data Migration" feature, you enter your old system's username and password. This information is used only once to fetch historical data from the legacy server (zhushouxy.top) and import it into iCloud. It is not persistently stored by the App after migration.</p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. For material changes, we will notify you in the App or via our GitHub repository. Continued use after updates constitutes acceptance.</p>
+
+    <h2>11. Contact Us</h2>
+    <p>For questions about this Privacy Policy:</p>
+    <ul>
+      <li><strong>Developer</strong>: Riping Chen</li>
+      <li><strong>GitHub Issues</strong>: <a href="https://github.com/xiaodaxia1083394272/personalManager_PrivacyPolicyETC/issues" target="_blank" rel="noopener">Submit feedback</a></li>
+    </ul>
+
+    <div class="footer">
+      <p>The Chinese version is the authoritative version.</p>
+      <p class="lang-switch"><a href="privacy-policy-zh.html">中文版本</a> · <a href="index.html">Back to documents</a></p>
+    </div>
+  </div>
+</body>
+</html>

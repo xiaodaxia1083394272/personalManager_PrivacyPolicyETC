@@ -23,18 +23,32 @@
 
 ## App Store Connect 填写 URL
 
+GitHub Pages 公开页面（推荐，无 GitHub 仓库界面干扰）：
+
 ```
 隐私政策（中文）：
-https://github.com/xiaodaxia1083394272/personalManager_PrivacyPolicyETC/blob/main/privacy-policy-zh.md
+https://xiaodaxia1083394272.github.io/personalManager_PrivacyPolicyETC/privacy-policy-zh.html
 
 隐私政策（英文）：
-https://github.com/xiaodaxia1083394272/personalManager_PrivacyPolicyETC/blob/main/privacy-policy-en.md
+https://xiaodaxia1083394272.github.io/personalManager_PrivacyPolicyETC/privacy-policy-en.html
 
 用户协议（中文）：
-https://github.com/xiaodaxia1083394272/personalManager_PrivacyPolicyETC/blob/main/terms-of-service-zh.md
+https://xiaodaxia1083394272.github.io/personalManager_PrivacyPolicyETC/terms-of-service-zh.html
 
 用户协议（英文）：
-https://github.com/xiaodaxia1083394272/personalManager_PrivacyPolicyETC/blob/main/terms-of-service-en.md
+https://xiaodaxia1083394272.github.io/personalManager_PrivacyPolicyETC/terms-of-service-en.html
+```
+
+文档首页：
+
+```
+https://xiaodaxia1083394272.github.io/personalManager_PrivacyPolicyETC/
+```
+
+Markdown 源文件（仓库内浏览）：
+
+```
+https://github.com/xiaodaxia1083394272/personalManager_PrivacyPolicyETC/blob/main/privacy-policy-zh.md
 ```
 
 ## 联系方式

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>隐私政策 — 自律一下下</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <p class="app-name">Self Discipline · 自律一下下</p>
+    <h1>隐私政策</h1>
+    <div class="meta">
+      <p><strong>应用名称</strong>：自律一下下（Self Discipline）</p>
+      <p><strong>开发者</strong>：Riping Chen</p>
+      <p><strong>Bundle ID</strong>：bichen.disciplinedMaster.com</p>
+      <p><strong>生效日期</strong>：2026 年 9 月 5 日</p>
+      <p><strong>最后更新</strong>：2026 年 9 月 5 日</p>
+    </div>
+
+    <p class="intro">欢迎使用「自律一下下」（以下简称「本应用」）。我们深知个人信息对您的重要性，并会尽全力保护您的隐私。请在使用本应用前仔细阅读本隐私政策。</p>
+
+    <h2>一、适用范围</h2>
+    <p>本隐私政策适用于您通过 Mac App Store 下载并使用的「自律一下下」macOS 桌面应用程序及其相关服务。</p>
+
+    <h2>二、我们收集的信息</h2>
+    <h3>2.1 您主动提供的信息</h3>
+    <p>在使用本应用过程中，您可能主动输入或上传以下信息：</p>
+    <ul>
+      <li><strong>个人状态记录</strong>：每小时的身体状态、情绪状态、综合评分等</li>
+      <li><strong>日程与任务</strong>：每日事件、任务内容、完成状态、反思与建议</li>
+      <li><strong>计时记录</strong>：多任务切换计时、番茄钟/久坐提醒的执行历史</li>
+      <li><strong>饮食管理</strong>：餐食记录、食物名称、热量与营养成分、评分、备注、饮食照片</li>
+      <li><strong>随记与书签</strong>：富文本笔记、网页书签</li>
+      <li><strong>日历提醒</strong>：您设置的日程提醒内容</li>
+      <li><strong>意见反馈</strong>：您提交的文字反馈</li>
+      <li><strong>个人设置</strong>：城市名称、可选邮箱等偏好设置</li>
+    </ul>
+
+    <h3>2.2 自动收集的信息</h3>
+    <ul>
+      <li><strong>iCloud 账户标识</strong>：本应用通过 Apple iCloud CloudKit 识别您的账户，使用 Apple 分配的 <code>recordName</code> 作为用户标识，不收集或存储您的 Apple ID 密码</li>
+      <li><strong>设备与使用偏好</strong>：界面语言、主题、侧边栏状态、计时器音效与颜色等本地偏好设置</li>
+      <li><strong>本地计时历史</strong>：多任务计时器的执行记录（任务名称、时长、结果、日期）</li>
+    </ul>
+
+    <h3>2.3 我们不收集的信息</h3>
+    <ul>
+      <li>我们不收集您的 Apple ID 密码或 iCloud 登录凭证</li>
+      <li>我们不使用第三方广告或数据分析 SDK（如 Firebase Analytics、友盟等）</li>
+      <li>我们不收集您的精确地理位置（城市名称仅由您手动填写，用于可选的天气功能）</li>
+      <li>我们不向第三方出售您的个人信息</li>
+    </ul>
+
+    <h2>三、信息的使用方式</h2>
+    <p>我们收集的信息仅用于以下目的：</p>
+    <ol>
+      <li><strong>提供核心功能</strong>：存储和同步您的自律记录、任务、饮食、笔记等数据</li>
+      <li><strong>跨设备同步</strong>：通过 Apple iCloud 在您的 Apple 设备间同步数据</li>
+      <li><strong>改善用户体验</strong>：记住您的界面偏好、计时器设置等</li>
+      <li><strong>局域网图片同步</strong>：在同一 Wi-Fi 网络下，向您的移动设备提供饮食照片访问（仅本地网络）</li>
+      <li><strong>处理用户反馈</strong>：存储并处理您提交的意见与建议</li>
+    </ol>
+
+    <h2>四、信息的存储与同步</h2>
+    <h3>4.1 iCloud CloudKit（主要存储）</h3>
+    <p>本应用的主要数据存储在 <strong>Apple iCloud CloudKit</strong> 私有数据库中，容器标识为 <code>iCloud.disciplinedMaster.com</code>。数据与您的 Apple ID 绑定，受 Apple 隐私政策保护。</p>
+    <p>存储的数据类型包括但不限于：状态记录、事件记录、饮食记录、日历提醒、笔记、书签、计划、模板、反馈及用户设置。</p>
+
+    <h3>4.2 本地存储</h3>
+    <p>以下数据存储在您的 Mac 本地：</p>
+    <ul>
+      <li><strong>SQLite 数据库</strong>（路径：<code>~/Library/Application Support/自律一下下/data/personal-manager.db</code>）：计时器历史记录；旧版饮食数据（如存在，会在首次同步时迁移至 iCloud）</li>
+      <li><strong>本地文件</strong>：饮食照片及一般图片文件</li>
+      <li><strong>浏览器 localStorage</strong>：界面偏好、草稿、临时状态等</li>
+    </ul>
+
+    <h3>4.3 局域网服务</h3>
+    <p>本应用可在本地网络（LAN）内启动 HTTP 服务，用于向同一网络下的移动设备同步饮食照片。该服务：</p>
+    <ul>
+      <li>仅在您使用相关功能时运行</li>
+      <li>仅在本机局域网内可访问，不暴露至公网</li>
+      <li>使用 Bonjour/mDNS 协议（<code>_personal-manager-sync._tcp</code>）进行设备发现</li>
+    </ul>
+
+    <h2>五、信息的共享与披露</h2>
+    <h3>5.1 第三方服务</h3>
+    <table>
+      <thead>
+        <tr><th>服务</th><th>用途</th><th>共享的数据</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Apple iCloud CloudKit</strong></td><td>数据存储与跨设备同步</td><td>您在本应用中创建的全部主要数据</td></tr>
+        <tr><td><strong>wttr.in</strong>（可选）</td><td>天气查询（当前版本 UI 已禁用）</td><td>您填写的城市名称</td></tr>
+        <tr><td><strong>旧版服务器 zhushouxy.top</strong>（可选）</td><td>一次性历史数据迁移</td><td>旧版用户名、密码及待迁移的数据（仅在您主动发起迁移时使用）</td></tr>
+      </tbody>
+    </table>
+    <p>除上述情况外，我们不会与任何第三方共享您的个人信息。</p>
+
+    <h3>5.2 法律要求</h3>
+    <p>在法律法规要求、司法机关或政府主管部门依法要求的情况下，我们可能会披露相关信息。</p>
+
+    <h2>六、数据安全</h2>
+    <p>我们采取以下措施保护您的信息：</p>
+    <ul>
+      <li>数据通过 Apple CloudKit 加密存储和传输</li>
+      <li>应用运行在 macOS 沙盒环境中，权限受系统严格控制</li>
+      <li>本地数据库和文件存储在应用专属目录，其他应用无法直接访问</li>
+      <li>不使用第三方广告或追踪 SDK</li>
+    </ul>
+    <p>请注意，没有任何互联网传输或电子存储方法是 100% 安全的。我们无法保证绝对安全，但会尽力保护您的数据。</p>
+
+    <h2>七、您的权利</h2>
+    <p>您对自己的数据享有以下权利：</p>
+    <ol>
+      <li><strong>访问与导出</strong>：您可以在应用内查看所有数据；饮食等功能支持导出</li>
+      <li><strong>修改与删除</strong>：您可以在应用内编辑或删除任何记录</li>
+      <li><strong>停止同步</strong>：退出 iCloud 账户或卸载应用即可停止 CloudKit 同步</li>
+      <li><strong>删除账户数据</strong>：卸载应用后，本地数据将被删除；iCloud 中的数据需通过 <a href="https://www.icloud.com" target="_blank" rel="noopener">iCloud 管理页面</a> 或联系 Apple 处理</li>
+      <li><strong>拒绝局域网共享</strong>：不启用饮食图片同步功能即可避免局域网服务</li>
+    </ol>
+
+    <h2>八、健康相关数据的特别说明</h2>
+    <p>本应用允许您记录饮食、情绪状态等信息。<strong>这些信息仅供个人自律管理参考，不构成医疗诊断、治疗建议或专业健康意见。</strong> 如有健康问题，请咨询专业医疗机构。</p>
+
+    <h2>九、旧版数据迁移</h2>
+    <p>如果您选择使用「旧版数据迁移」功能，您需要输入旧版系统的用户名和密码。该信息仅用于从旧版服务器（zhushouxy.top）一次性拉取历史数据并导入 iCloud，迁移完成后不会被本应用持久存储。</p>
+
+    <h2>十、隐私政策的变更</h2>
+    <p>我们可能会不时更新本隐私政策。重大变更时，我们会在应用内或通过 GitHub 仓库通知您。更新后的政策自发布之日起生效，继续使用本应用即表示您接受更新后的政策。</p>
+
+    <h2>十一、联系我们</h2>
+    <p>如您对本隐私政策有任何疑问、意见或请求，请通过以下方式联系我们：</p>
+    <ul>
+      <li><strong>开发者</strong>：Riping Chen</li>
+      <li><strong>GitHub Issues</strong>：<a href="https://github.com/xiaodaxia1083394272/personalManager_PrivacyPolicyETC/issues" target="_blank" rel="noopener">提交反馈</a></li>
+    </ul>
+
+    <div class="footer">
+      <p>本隐私政策以中文版本为准。</p>
+      <p class="lang-switch"><a href="privacy-policy-en.html">English version</a> · <a href="index.html">返回文档列表</a></p>
+    </div>
+  </div>
+</body>
+</html>
